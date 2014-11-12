@@ -16,7 +16,7 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> .bashrc
 >Vim 7.4 introduced a new, very useful, scheme: it looks for the usual ~/.vimrc and also for ~/.vim/vimrc so that's even less work for you:  
 >http://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files/18203545#18203545
 
-'''bash
+```bash
 $mv ~/.vim/.vimrc ~/.vim/vimrc  
 $ cd .vim  
 $ git init  
@@ -25,4 +25,4 @@ $ git add *
 $ git commit -m "My Vim config is versioned."  
 $ git remote add origin https://github.com/username/vimconfig.git  
 $ git push origin master  
-'''
+```
