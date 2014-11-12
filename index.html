@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Vim by joshmccall221</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Vim</h1>
+        <h2>Cool Awesome Vim Stuff!</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/joshmccall221/vim/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/joshmccall221/vim/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/joshmccall221/vim" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="vim" class="anchor" href="#vim" aria-hidden="true"><span class="octicon octicon-link"></span></a>vim</h1>
+
+<p>Cool Awesome Vim Stuff!</p>
+
+<h4>
+<a id="setup-vim-74" class="anchor" href="#setup-vim-74" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup: Vim 7.4</h4>
+
+<p>brew install vim</p>
+
+<p>If you have multiple VI/VIM versions installed, or you can not invoke vim from the command line:
+echo 'export PATH="/usr/local/bin:$PATH"' &gt;&gt; .bashrc</p>
+
+<h4>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git:</h4>
+
+<blockquote>
+<blockquote>
+<blockquote>
+<h4>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span class="octicon octicon-link"></span></a>note:</h4>
+
+<p>Vim 7.4 introduced a new, very useful, scheme: it looks for the usual ~/.vimrc and also for ~/.vim/vimrc so that's even less work for you:
+<a href="http://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files/18203545#18203545">http://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files/18203545#18203545</a></p>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<p>'''
+$mv ~/.vim/.vimrc ~/.vim/vimrc
+$ cd .vim
+$ git init
+$ echo "This is my Vim config." &gt; README
+$ git add *
+$ git commit -m "My Vim config is versioned."
+$ git remote add origin <a href="https://github.com/username/vimconfig.git">https://github.com/username/vimconfig.git</a>
+$ git push origin master
+'''</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
