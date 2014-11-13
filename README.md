@@ -1,9 +1,8 @@
 vim
 ===
 
-Cool Awesome Vim Stuff!
+Cool Awesome Vim Stuff!    http://joshmccall221.github.io/vim/
 
-http://joshmccall221.github.io/vim/
 
 <h4>
 <a id="setup-vim-74" class="anchor" href="#setup-vim-74" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup: Vim 7.4</h4>
