@@ -5,37 +5,6 @@ Cool Awesome Vim Stuff!
 
 http://joshmccall221.github.io/vim/
 
-####Setup: Vim 7.4 
-brew install vim
-
-If you have multiple VI/VIM versions installed, or you can not invoke vim from the command line:
-echo 'export PATH="/usr/local/bin:$PATH"' >> .bashrc
-
-
-####Git: 
->####note:
->Vim 7.4 introduced a new, very useful, scheme: it looks for the usual ~/.vimrc and also for ~/.vim/vimrc so that's even less work for you:  
->http://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files/18203545#18203545
-
-```bash
-$mv ~/.vim/.vimrc ~/.vim/vimrc  
-$ cd .vim  
-$ git init  
-$ echo "This is my Vim config." > README  
-$ git add *  
-$ git commit -m "My Vim config is versioned."  
-$ git remote add origin https://github.com/username/vimconfig.git  
-$ git push origin master  
-```
-
-
-
-
-
-
-    <div class="container">
-      <section id="main_content">
-        <h1>
 <a id="vim" class="anchor" href="#vim" aria-hidden="true"><span class="octicon octicon-link"></span></a>vim</h1>
 
 <p>Cool Awesome Vim Stuff!</p>
@@ -75,16 +44,16 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 </blockquote>
 
 
-<pre>
-$mv ~/.vim/.vimrc ~/.vim/vimrc
-$ cd .vim
-$ git init
-$ echo "This is my Vim config." &gt; README
-$ git add *
-$ git commit -m "My Vim config is versioned."
-$ git remote add origin <a href="https://github.com/username/vimconfig.git">https://github.com/username/vimconfig.git</a>
-$ git push origin master
-</pre>
+```bash
+$mv ~/.vim/.vimrc ~/.vim/vimrc  
+$ cd .vim  
+$ git init  
+$ echo "This is my Vim config." > README  
+$ git add *  
+$ git commit -m "My Vim config is versioned."  
+$ git remote add origin https://github.com/username/vimconfig.git  
+$ git push origin master  
+```
 </br>
 </br>
 </br>
