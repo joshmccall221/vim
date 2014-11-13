@@ -1,4 +1,4 @@
-http://joshmccall221.github.io/vim/
+Project Page: http://joshmccall221.github.io/vim/
 
 vim
 ===
@@ -59,6 +59,7 @@ $ git push origin master
 HomeBrew: <a href="http://brew.sh/">link</a><br/>
 VimAwesome: <a href="http://vimawesome.com/plugin/the-nerd-tree">link</a><br/>
 vimcasts.org sync plugins with git submodules and Pathogen: <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a>
+Project Page: http://joshmccall221.github.io/vim/
  <p/>
       </section>
     </div>
