@@ -38,8 +38,22 @@
 
 <p>brew install vim</p>
 
-<p>If you have multiple VI/VIM versions installed, or you can not invoke vim from the command line:
-echo 'export PATH="/usr/local/bin:$PATH"' &gt;&gt; .bashrc</p>
+<p>If you have multiple VIM versions installed, or you can not invoke vim from the command line:</p>
+		
+<pre>
+echo 'export PATH="/usr/local/bin:$PATH"' &gt;&gt; .bashrc
+</pre>
+
+<h3>
+Pathogen Installation
+</h3>
+
+<p>Install to <code>~/.vim/autoload/pathogen.vim</code>.  Or copy and paste:</p>
+
+<pre><code>mkdir -p ~/.vim/autoload ~/.vim/bundle &amp;&amp; \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+</code></pre>
+
 
 <h4>
 <a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git:</h4>
@@ -54,19 +68,26 @@ echo 'export PATH="/usr/local/bin:$PATH"' &gt;&gt; .bashrc</p>
 </blockquote>
 
 
-<code>
-$mv ~/.vim/.vimrc ~/.vim/vimrc<br/>
-$ cd .vim<br/>
-$ git init<br/>
-$ echo "This is my Vim config." &gt; README<br/>
-$ git add *<br/>
-$ git commit -m "My Vim config is versioned."<br/>
-$ git remote add origin <a href="https://github.com/username/vimconfig.git">https://github.com/username/vimconfig.git</a><br/>
-$ git push origin master<br/>
-</code>
-</section>
+<pre>
+$mv ~/.vim/.vimrc ~/.vim/vimrc
+$ cd .vim
+$ git init
+$ echo "This is my Vim config." &gt; README
+$ git add *
+$ git commit -m "My Vim config is versioned."
+$ git remote add origin <a href="https://github.com/username/vimconfig.git">https://github.com/username/vimconfig.git</a>
+$ git push origin master
+</pre>
+</br>
+</br>
+</br>
+<h5>Mentions and Ueseful links:</h5>
+<p>
+Homebrew: <a href="http://brew.sh/">link</a><br/>
+VimAwesome: <a href="http://vimawesome.com/plugin/the-nerd-tree">link</a><br/>
+vimcasts.org sync plugins with git submodules and Pathogen: <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a>
+ <p/>
+      </section>
     </div>
-
-    
   </body>
 </html>
