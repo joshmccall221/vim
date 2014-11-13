@@ -1,9 +1,9 @@
-Project Page: http://joshmccall221.github.io/vim/
 
 vim
 ===
 
 Cool Awesome Vim Stuff!    
+Project Page: http://joshmccall221.github.io/vim/
 
 
 <h4>
