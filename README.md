@@ -2,7 +2,7 @@
 vim
 ===
 
-Cool Awesome Vim Stuff!    
+Cool Awesome Vim Stuff!<br/> 
 Project Page: http://joshmccall221.github.io/vim/
 
 
