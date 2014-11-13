@@ -1,7 +1,11 @@
+http://joshmccall221.github.io/vim/
+
+<br/><br/>
+
 vim
 ===
 
-Cool Awesome Vim Stuff!    http://joshmccall221.github.io/vim/
+Cool Awesome Vim Stuff!    
 
 
 <h4>
