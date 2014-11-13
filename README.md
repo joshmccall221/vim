@@ -58,8 +58,8 @@ $ git push origin master
 <p>
 HomeBrew: <a href="http://brew.sh/">link</a><br/>
 VimAwesome: <a href="http://vimawesome.com/plugin/the-nerd-tree">link</a><br/>
-vimcasts.org sync plugins with git submodules and Pathogen: <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a>
-Project Page: http://joshmccall221.github.io/vim/
+vimcasts.org sync plugins with git submodules and Pathogen: <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a><br/>
+Project Page: <a>http://joshmccall221.github.io/vim</a>
  <p/>
       </section>
     </div>
