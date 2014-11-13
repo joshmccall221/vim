@@ -5,10 +5,6 @@ Cool Awesome Vim Stuff!
 
 http://joshmccall221.github.io/vim/
 
-<a id="vim" class="anchor" href="#vim" aria-hidden="true"><span class="octicon octicon-link"></span></a>vim</h1>
-
-<p>Cool Awesome Vim Stuff!</p>
-
 <h4>
 <a id="setup-vim-74" class="anchor" href="#setup-vim-74" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup: Vim 7.4</h4>
 
