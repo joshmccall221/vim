@@ -27,3 +27,6 @@ $ git commit -m "My Vim config is versioned."
 $ git remote add origin https://github.com/username/vimconfig.git  
 $ git push origin master  
 ```
+
+
+
