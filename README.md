@@ -2,6 +2,7 @@ vim
 ===
 
 Cool Awesome Vim Stuff!
+==
 
 http://joshmccall221.github.io/vim/
 
@@ -55,8 +56,9 @@ $ git push origin master
 </br>
 <h5>Mentions and Ueseful links:</h5>
 <p>
-VimAwesome:<a href="http://vimawesome.com/plugin/the-nerd-tree">link</a><br/>
- vimcasts.org sync plugins with git submodules and Pathogen:<a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a>
+HomeBrew: <a href="http://brew.sh/">link</a><br/>
+VimAwesome: <a href="http://vimawesome.com/plugin/the-nerd-tree">link</a><br/>
+vimcasts.org sync plugins with git submodules and Pathogen: <a href="http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/">link</a>
  <p/>
       </section>
     </div>
