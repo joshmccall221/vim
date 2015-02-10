@@ -2,8 +2,6 @@ TODO:
 ====
 - Update Content  
 
-Cool Awesome Vim Stuff!<br/> <br/> 
-Project Page: http://joshmccall221.github.io/vim/
 
 
 
@@ -15,6 +13,12 @@ Project Page: http://joshmccall221.github.io/vim/
 
 vim
 ===
+
+Cool Awesome Vim Stuff!<br/> <br/> 
+Project Page: http://joshmccall221.github.io/vim/
+
+
+
 
 
 
