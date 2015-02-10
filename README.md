@@ -1,7 +1,7 @@
 TODO:
 ====
 - Update Content  
-
+- Incorporate into http://joshmccall221.github.io
 
 
 
